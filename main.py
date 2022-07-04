@@ -1,7 +1,12 @@
-import challenge8 as ch8
+def isTheHighest(arr,pos):
+    print(arr)
+    print(pos)
+    unsortedList = arr;
+    print(unsortedList)
+    sortedList = unsortedList.sort(reverse=True);
+    print(sortedList)
+    return sortedList[pos]
 
-x = int(input())
-y = int(input())
-z = int(input())
-n = int(input())
-print(ch8.create3dGridRestricted(x,y,z,n));
+n = int("5")
+arr = list(map(int, "2 3 6 6 5".split()))
+print(isTheHighest(arr, 1))

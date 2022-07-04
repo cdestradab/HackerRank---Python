@@ -1,4 +1,4 @@
-#Set .intersection() Operation
+gui#Set .intersection() Operation
 
 def howManyForBoth(set1, set2):
     inters = set1.intersection(set2);
