@@ -20,3 +20,8 @@ arr entonces es una lista, y una lista se puede organizar con la función sorted
 Hay una diferencia importante entre el método list.sort() y la función sorted():
 - list.sort() permite organizar los elementos de la lista, pero no crea una lista nueva, solo devuelve los elementos ya organizados, pero estos permanecen en su sitio.
 - sorted() si toma el objeto y devuelve una lista nueva organizada segun los criterios establecidos'''
+
+#Testing
+'''n = int("5")
+arr = list(map(int, "2 3 6 6 5".split()))
+print(isTheHighest(arr, 1))'''
