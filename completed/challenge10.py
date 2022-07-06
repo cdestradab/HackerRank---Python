@@ -25,3 +25,11 @@ def printSeconds(lista):
 
 #Testing:
 '''score = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]'''
+
+#Notas:
+'''
+Se puede hacer uso de las "List comprehension" para hacer ciclos for de forma mas compacta.
+
+Enlace para mas info: 
+https://www.programiz.com/python-programming/list-comprehension
+'''
