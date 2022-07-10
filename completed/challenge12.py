@@ -43,3 +43,10 @@ listCommand(listaEjemplo, 'reverse');
 
 print(listaEjemplo);
 '''
+
+#Note:
+'''Nota: Hay una alternativa para poder evaluar directamente entradas de texto en forma de comandos. Los metodos eval() y getattr().
+
+El método eval() es mas riesgoso, ya que usado con un comando input podria permitir a un usuario explotar las vulnerabilidades del código.
+
+El método getattr() es una mejor opción en cuanto a seguridad, porque siendo similar a eval(), restringe su uso a una clase y evalua la entrada para buscar ya sea el método o variable en la clase.'''
