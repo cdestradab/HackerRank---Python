@@ -25,4 +25,7 @@ Para cambiar la cantidad de decimales en el resultado aquí se hace uso del mét
 
 float = 2.154327
 format_float = "{:.2f}".format(float)
+
+Mas métodos para definir la cantidad de decimales:
+https://pythonguides.com/python-print-2-decimal-places/
 '''

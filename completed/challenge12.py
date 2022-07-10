@@ -14,8 +14,20 @@ def listCommand(lista, comando, listaEntradas=0):
     elif comando == 'reverse':
         lista.reverse();
     else:
-        return 0;
+        print('Algo pasa!!!');
 
+#HackerRank Main
+'''if __name__ == '__main__':
+    N = int(input())
+    lista = [];
+    for i in range(N):
+        comando, *entradas = input().split();
+        listaEntradas = list(map(int, entradas));
+
+        listCommand(lista, comando, listaEntradas);'''
+
+#Manual Testing
+'''
 listaEjemplo = [];
 listCommand(listaEjemplo, 'insert', [0,85]);
 listCommand(listaEjemplo, 'insert', [3,45]);
@@ -30,3 +42,4 @@ listCommand(listaEjemplo, 'print');
 listCommand(listaEjemplo, 'reverse');
 
 print(listaEjemplo);
+'''
