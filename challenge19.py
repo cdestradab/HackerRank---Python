@@ -1,3 +1,4 @@
+
 def checksCharacters(cha):
     hasAlpha = False;
     hasDigit = False;
@@ -27,4 +28,6 @@ if __name__ == '__main__':
 #NOTA:
 '''
 Hay que tener cuidado con el flujo que se le da a los condicionales. Especialmente con el "if" y un "elif" anidado. En este caso por ejemplo, no se puede usar elif, porque el propósito es evaluar todas las posibilidades en un mismo caracter. Pero si se usa un elif, y la condición del if principal no se cumple nunca, el elif en el no será tenido en cuenta siquiera. Raro. Hay que investigar más.
+
+https://www.hackerrank.com/challenges/string-validators/problem
 '''
