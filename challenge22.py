@@ -22,3 +22,12 @@ if __name__ == '__main__':
 '''
 En este caso el método str.center(width, 'char') funcionó de maravilla. Queda la función allí para usos posteriores (quizás).
 '''
+
+#NOTA:
+'''
+Una solución mas elegante es:
+
+n, m = map(int,input().split())
+pattern = [('.|.'*(2*i + 1)).center(m, '-') for i in range(n//2)]
+print('\n'.join(pattern + ['WELCOME'.center(m, '-')] + pattern[::-1]))
+'''
