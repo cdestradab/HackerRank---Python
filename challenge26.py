@@ -8,14 +8,14 @@ def minion_game(string):
     sStuart = 0;
     sKevin = 0;
     
-    ite = 0;
-    while ite < 1: #slen:
+    ite = 0; #innecesario
+    while ite < 1: #innecesario
         for i in range(slen-ite):
             if string[i] in vowels:
                 sKevin += slen - i;
             else:
                 sStuart += slen - i;
-        ite += 1;
+        ite += 1; #innecesario
 
     if sKevin > sStuart:
         print("Kevin", sKevin);
