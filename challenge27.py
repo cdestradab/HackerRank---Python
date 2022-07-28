@@ -28,3 +28,13 @@ Recordar siempre leer todos los elementos del problema propuesto: valores de ent
 
 Ver la linea 18, es una herramienta muy buena para imprimir valores de una lista sin usar ciclos for.
 '''
+
+#OTRA APROXIMACIÓN MUY SOFISTICADA:
+'''
+S, N = input(), int(input()) 
+for part in zip(*[iter(S)] * N):
+    d = dict()
+    print(''.join([ d.setdefault(c, c) for c in part if c not in d ]))
+'''
+# En esta se hace uso conjunto de las funcionalidades del método zip y las características de los iteradores (iter()). Un iterador, a diferencia de otros iterables, mantiene internamente un punto de progreso sobre el cual se va avanzando en los elementos. Por eso en este problema los elementos no se repiten en la linea 35
+#Mas info: https://www.hackerrank.com/challenges/merge-the-tools/forum
