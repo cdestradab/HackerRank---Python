@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 #NOTA:
 '''
-Notar en el método split(), que si el parámetro se deja vacio, Python ignorará TODOS los espacios. Pero si se deja con el valor ' ' (un espacio) dividirá todos los caracteres solo por un espacio, eso significa que si hay tres caracteres de espacio, el caracter de en medio también será considerado un caracter como cualquier otro  no será ignorado.
+Notar en el método str.split(), que si el parámetro se deja vacio, Python ignorará TODOS los espacios. Pero si se deja con el valor ' ' (un espacio) dividirá todos los caracteres solo por un espacio, eso significa que si hay tres caracteres de espacio, el caracter de en medio también será considerado un caracter como cualquier otro  no será ignorado.
 '''
 #OTRA APROXIMACIÓN:
 '''
